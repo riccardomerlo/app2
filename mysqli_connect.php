@@ -7,7 +7,7 @@
 // Set the database access information as constants:
 DEFINE ('DB_USER', 'root');
 DEFINE ('DB_PASSWORD', 'psw');
-DEFINE ('DB_HOST', '172.30.43.35');
+DEFINE ('DB_HOST', 'mysql://mariadb:3306/');
 DEFINE ('DB_NAME', 'sitename');
 
 // Make the connection:
